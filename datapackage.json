@@ -1007,6 +1007,499 @@
           }
         }
       }
+    },
+    {
+      "bytes": 2495,
+      "hash": "6eae08f7b610b0c0b9379cc9b7d576e643453a13fb550f7aa52341aa7c152d35",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "title": "economica_titulo",
+            "name": "economica_titulo",
+            "slug": "economica_titulo",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "economica_subtitulo",
+            "name": "economica_subtitulo",
+            "slug": "economica_subtitulo",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "economica_grupo",
+            "name": "economica_grupo",
+            "slug": "economica_grupo",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "periodo",
+            "name": "periodo",
+            "slug": "periodo",
+            "type": "integer",
+            "format": "default",
+            "columnType": "date:fiscal-year",
+            "conceptType": "date",
+            "options": []
+          },
+          {
+            "title": "pres_inicial",
+            "name": "pres_inicial",
+            "slug": "pres_inicial",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "pres_reformulado_aprobado",
+            "name": "pres_reformulado_aprobado",
+            "slug": "pres_reformulado_aprobado",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "percibido_aprobado",
+            "name": "percibido_aprobado",
+            "slug": "percibido_aprobado",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "encoding": "utf-8",
+      "mediatype": "text/csv",
+      "name": "ingresos-actualizados-abril-econom-sin-fuentes__2016.csv",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "path": "data/ingresos-actualizados-abril-econom-sin-fuentes__2016.csv",
+      "hashcopy": "0ac18ebb919c3627e549b922044f534f8b86602fc37a87aa45c3cdfe61e4433e",
+      "sample": [
+        [
+          "economica_titulo",
+          "economica_subtitulo",
+          "economica_grupo",
+          "periodo",
+          "pres_inicial",
+          "pres_reformulado_aprobado",
+          "percibido_aprobado"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.1 - Impuestos",
+          "1.1.1.1 - Impuestos sobre el ingreso, las utilidades  y las ganancias de capital",
+          "2016",
+          "138706502877.00",
+          "139754269040.00",
+          "135699415922.23"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.1 - Impuestos",
+          "1.1.1.3 - Impuestos sobre la propiedad",
+          "2016",
+          "21079986841.00",
+          "21079986841.00",
+          "20717283910.55"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.1 - Impuestos",
+          "1.1.1.4 - Impuestos sobre los bienes y servicios",
+          "2016",
+          "264681619129.00",
+          "264747040128.00",
+          "261055269448.47"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.1 - Impuestos",
+          "1.1.1.5 - Impuestos sobre el comercio y las transacciones internacionales/comercio exterior",
+          "2016",
+          "33937567086.00",
+          "33937567086.00",
+          "33500966281.12"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.1 - Impuestos",
+          "1.1.1.6 - Impuestos ecolÃ³gicos",
+          "2016",
+          "469238546.00",
+          "469238546.00",
+          "666829720.61"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.1 - Impuestos",
+          "1.1.1.9 - Impuestos diversos",
+          "2016",
+          "779273.00",
+          "779273.00",
+          "1207784.83"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.2 - Contribuciones a la seguridad social",
+          "No informado",
+          "2016",
+          "1525611605.00",
+          "2022607034.00",
+          "1549961330.65"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.3 - Ventas de bienes y servicios",
+          "No informado",
+          "2016",
+          "15512744522.00",
+          "22934819204.36",
+          "19099898492.14"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.4 - Rentas de la propiedad",
+          "No informado",
+          "2016",
+          "10596796648.00",
+          "10596796648.00",
+          "11976241405.57"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.6 - Transferencias y donaciones corrientes recibidas",
+          "No informado",
+          "2016",
+          "45344.00",
+          "45344.00",
+          "32500.00"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.7 - Multas y sanciones pecuniarias",
+          "No informado",
+          "2016",
+          "137807204.00",
+          "137807204.00",
+          "107807173.05"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.9 - Otros ingresos corrientes",
+          "No informado",
+          "2016",
+          "72662705.00",
+          "812584105.00",
+          "153485165.10"
+        ],
+        [
+          "1.2 - Ingresos de capital",
+          "1.2.1 - Venta (disposiciÃ³n) de activos no financieros (a valores brutos)",
+          "1.2.1.1 - Venta de activos fijos",
+          "2016",
+          "15184000.00",
+          "15184000.00",
+          "22847917.40"
+        ],
+        [
+          "1.2 - Ingresos de capital",
+          "1.2.4 - Transferencias de capital recibidas",
+          "No informado",
+          "2016",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "1.2 - Ingresos de capital",
+          "1.2.5 - RecuperaciÃ³n de inversiones financieras realizadas con fines de polÃ­tica",
+          "No informado",
+          "2016",
+          "0.00",
+          "0.00",
+          "88021876.53"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.6 - Transferencias y donaciones corrientes recibidas",
+          "1.1.6.5 - Donaciones corrientes",
+          "2016",
+          "263900000.00",
+          "249736573.97",
+          "169869587.90"
+        ],
+        [
+          "1.2 - Ingresos de capital",
+          "1.2.4 - Transferencias de capital recibidas",
+          "1.2.4.4 - Donaciones de capital",
+          "2016",
+          "3297877000.00",
+          "3432691341.32",
+          "853816066.90"
+        ]
+      ],
+      "model": {
+        "dimensions": {
+          "economic-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "economica_titulo",
+              "economica_subtitulo",
+              "economica_grupo"
+            ],
+            "attributes": {
+              "economica_titulo": {
+                "source": "economica_titulo",
+                "title": "economica_titulo"
+              },
+              "economica_subtitulo": {
+                "source": "economica_subtitulo",
+                "title": "economica_subtitulo",
+                "parent": "economica_titulo"
+              },
+              "economica_grupo": {
+                "source": "economica_grupo",
+                "title": "economica_grupo",
+                "parent": "economica_subtitulo"
+              }
+            },
+            "classificationType": "economic"
+          },
+          "date": {
+            "dimensionType": "datetime",
+            "primaryKey": [
+              "periodo"
+            ],
+            "attributes": {
+              "periodo": {
+                "source": "periodo",
+                "title": "periodo"
+              }
+            }
+          }
+        },
+        "measures": {
+          "pres_inicial": {
+            "source": "pres_inicial",
+            "title": "pres_inicial"
+          },
+          "pres_reformulado_aprobado": {
+            "source": "pres_reformulado_aprobado",
+            "title": "pres_reformulado_aprobado"
+          },
+          "percibido_aprobado": {
+            "source": "percibido_aprobado",
+            "title": "percibido_aprobado"
+          }
+        }
+      }
     }
   ],
   "title": "Dominican Republic",
