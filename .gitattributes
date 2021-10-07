@@ -4,3 +4,4 @@ data/ingresos-actualizados-abril-econom-sin-fuentes__2016.csv filter=lfs diff=lf
 data/ingresos-actualizados-abril-econom-sin-fuentes__2017.csv filter=lfs diff=lfs merge=lfs -text
 data/ingresos-actualizados-abril-econom-sin-fuentes__2018.csv filter=lfs diff=lfs merge=lfs -text
 data/ingresos-actualizados-abril-econom-sin-fuentes__2019.csv filter=lfs diff=lfs merge=lfs -text
+data/ingresos-actualizados-abril-econom-sin-fuentes__2020.csv filter=lfs diff=lfs merge=lfs -text

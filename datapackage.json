@@ -3042,6 +3042,544 @@
           }
         }
       }
+    },
+    {
+      "bytes": 3496,
+      "hash": "d3e61a7974d5e85343a3665f941013e468abdbdf59b84f0da545e88a6a0dde7c",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "title": "economica_titulo",
+            "name": "economica_titulo",
+            "slug": "economica_titulo",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "economica_subtitulo",
+            "name": "economica_subtitulo",
+            "slug": "economica_subtitulo",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "economica_grupo",
+            "name": "economica_grupo",
+            "slug": "economica_grupo",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "periodo",
+            "name": "periodo",
+            "slug": "periodo",
+            "type": "integer",
+            "format": "default",
+            "columnType": "date:fiscal-year",
+            "conceptType": "date",
+            "options": []
+          },
+          {
+            "title": "pres_inicial",
+            "name": "pres_inicial",
+            "slug": "pres_inicial",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "pres_reformulado_aprobado",
+            "name": "pres_reformulado_aprobado",
+            "slug": "pres_reformulado_aprobado",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "percibido_aprobado",
+            "name": "percibido_aprobado",
+            "slug": "percibido_aprobado",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "encoding": "utf-8",
+      "mediatype": "text/csv",
+      "name": "ingresos-actualizados-abril-econom-sin-fuentes__2020.csv",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "path": "data/ingresos-actualizados-abril-econom-sin-fuentes__2020.csv",
+      "hashcopy": "aeff168cd6f5112e15533d69ceaeb48d4cf9e3fc95573c3737b82dece373be99",
+      "sample": [
+        [
+          "economica_titulo",
+          "economica_subtitulo",
+          "economica_grupo",
+          "periodo",
+          "pres_inicial",
+          "pres_reformulado_aprobado",
+          "percibido_aprobado"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.1 - Impuestos",
+          "1.1.1.1 - Impuestos sobre el ingreso, las utilidades  y las ganancias de capital",
+          "2020",
+          "219373442099.00",
+          "219373442099.00",
+          "65034119295.82"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.1 - Impuestos",
+          "1.1.1.3 - Impuestos sobre la propiedad",
+          "2020",
+          "31554762307.00",
+          "31554762307.00",
+          "6844611855.21"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.1 - Impuestos",
+          "1.1.1.4 - Impuestos sobre los bienes y servicios",
+          "2020",
+          "386199160818.00",
+          "386199160818.00",
+          "96265196775.47"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.1 - Impuestos",
+          "1.1.1.5 - Impuestos sobre el comercio y las transacciones internacionales/comercio exterior",
+          "2020",
+          "44819518910.00",
+          "44819518910.00",
+          "10753227321.81"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.1 - Impuestos",
+          "1.1.1.6 - Impuestos ecolÃ³gicos",
+          "2020",
+          "906365224.00",
+          "906365224.00",
+          "196174897.25"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.1 - Impuestos",
+          "1.1.1.9 - Impuestos diversos",
+          "2020",
+          "1927238.00",
+          "1927238.00",
+          "254264.91"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.2 - Contribuciones a la seguridad social",
+          "1.1.2.1 - Contribuciones de los empleados",
+          "2020",
+          "799133604.00",
+          "811608514.00",
+          "301520910.21"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.2 - Contribuciones a la seguridad social",
+          "1.1.2.2 - Contribuciones de los empleadores",
+          "2020",
+          "2008293997.00",
+          "2008293997.00",
+          "556574596.05"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.2 - Contribuciones a la seguridad social",
+          "1.1.2.4 - Contribuciones no clasificables",
+          "2020",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.3 - Ventas de bienes y servicios",
+          "1.1.3.1 - Ventas de establecimientos no de mercado",
+          "2020",
+          "24306653463.00",
+          "24306653463.00",
+          "5997693947.85"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.3 - Ventas de bienes y servicios",
+          "1.1.3.3 - Derechos administrativos",
+          "2020",
+          "5958279903.00",
+          "5958279903.00",
+          "1271023711.08"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.4 - Rentas de la propiedad",
+          "1.1.4.1 - Intereses",
+          "2020",
+          "3715688023.00",
+          "3715688023.00",
+          "796745003.11"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.4 - Rentas de la propiedad",
+          "1.1.4.2 - Rentas de la propiedad distinta de intereses",
+          "2020",
+          "6859569050.00",
+          "6859569050.00",
+          "977744692.82"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.6 - Transferencias y donaciones corrientes recibidas",
+          "1.1.6.1 - Transferencias del sector privado",
+          "2020",
+          "2390382.00",
+          "2390382.00",
+          "664000.00"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.6 - Transferencias y donaciones corrientes recibidas",
+          "1.1.6.2 - Transferencias del sector pÃºblico",
+          "2020",
+          "0.00",
+          "400000000.00",
+          "12400000000.00"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.6 - Transferencias y donaciones corrientes recibidas",
+          "1.1.6.5 - Donaciones corrientes",
+          "2020",
+          "1405867102.00",
+          "1791008453.07",
+          "60971745.43"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.7 - Multas y sanciones pecuniarias",
+          "No informado",
+          "2020",
+          "324237132.00",
+          "324237132.00",
+          "38375266.35"
+        ],
+        [
+          "1.1 - Ingresos Corrientes",
+          "1.1.9 - Otros ingresos corrientes",
+          "No informado",
+          "2020",
+          "10266096927.00",
+          "11408436927.00",
+          "4405347010.14"
+        ],
+        [
+          "1.2 - Ingresos de capital",
+          "1.2.1 - Venta (disposiciÃ³n) de activos no financieros (a valores brutos)",
+          "1.2.1.1 - Venta de activos fijos",
+          "2020",
+          "21570774.00",
+          "21570774.00",
+          "11408777.59"
+        ],
+        [
+          "1.2 - Ingresos de capital",
+          "1.2.4 - Transferencias de capital recibidas",
+          "1.2.4.2 - Transferencias del sector publico",
+          "2020",
+          "10712000000.00",
+          "10712000000.00",
+          "3210504000.00"
+        ],
+        [
+          "1.2 - Ingresos de capital",
+          "1.2.4 - Transferencias de capital recibidas",
+          "1.2.4.4 - Donaciones de capital",
+          "2020",
+          "1588394223.00",
+          "1668567287.94",
+          "351802937.98"
+        ],
+        [
+          "1.2 - Ingresos de capital",
+          "1.2.5 - RecuperaciÃ³n de inversiones financieras realizadas con fines de polÃ­tica",
+          "1.2.5.4 - RecuperaciÃ³n de prÃ©stamos realizados con fines de polÃ­tica",
+          "2020",
+          "0.00",
+          "0.00",
+          "31818060.38"
+        ]
+      ],
+      "model": {
+        "dimensions": {
+          "economic-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "economica_titulo",
+              "economica_subtitulo",
+              "economica_grupo"
+            ],
+            "attributes": {
+              "economica_titulo": {
+                "source": "economica_titulo",
+                "title": "economica_titulo"
+              },
+              "economica_subtitulo": {
+                "source": "economica_subtitulo",
+                "title": "economica_subtitulo",
+                "parent": "economica_titulo"
+              },
+              "economica_grupo": {
+                "source": "economica_grupo",
+                "title": "economica_grupo",
+                "parent": "economica_subtitulo"
+              }
+            },
+            "classificationType": "economic"
+          },
+          "date": {
+            "dimensionType": "datetime",
+            "primaryKey": [
+              "periodo"
+            ],
+            "attributes": {
+              "periodo": {
+                "source": "periodo",
+                "title": "periodo"
+              }
+            }
+          }
+        },
+        "measures": {
+          "pres_inicial": {
+            "source": "pres_inicial",
+            "title": "pres_inicial"
+          },
+          "pres_reformulado_aprobado": {
+            "source": "pres_reformulado_aprobado",
+            "title": "pres_reformulado_aprobado"
+          },
+          "percibido_aprobado": {
+            "source": "percibido_aprobado",
+            "title": "percibido_aprobado"
+          }
+        }
+      }
     }
   ],
   "title": "Dominican Republic",
