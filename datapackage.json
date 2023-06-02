@@ -275,7 +275,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-abril-econom-sin-fuentes__2014.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-abril-econom-sin-fuentes__2014.csv",
       "hashcopy": "14376599a90589b0a539d85bd1ea3fc30fd9769f45d2fa9bfc9dad82c882836b",
       "sample": [
         [
@@ -777,7 +777,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-abril-econom-sin-fuentes__2015.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-abril-econom-sin-fuentes__2015.csv",
       "hashcopy": "47225c08215ddcd4a45e633f7adbf67ebffa51013c07f954519b7fe3d766fac8",
       "sample": [
         [
@@ -1279,7 +1279,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-abril-econom-sin-fuentes__2016.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-abril-econom-sin-fuentes__2016.csv",
       "hashcopy": "0ac18ebb919c3627e549b922044f534f8b86602fc37a87aa45c3cdfe61e4433e",
       "sample": [
         [
@@ -1772,7 +1772,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-abril-econom-sin-fuentes__2017.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-abril-econom-sin-fuentes__2017.csv",
       "hashcopy": "73bb272c6aa9d8ea5ef3c3fb515fae3867b15e27d499c805899a16e9afb78e34",
       "sample": [
         [
@@ -2265,7 +2265,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-abril-econom-sin-fuentes__2018.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-abril-econom-sin-fuentes__2018.csv",
       "hashcopy": "c220991185b06aaae5a25c720ae312f49122920cb123b98b696365d33d70c648",
       "sample": [
         [
@@ -2794,7 +2794,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-abril-econom-sin-fuentes__2019.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-abril-econom-sin-fuentes__2019.csv",
       "hashcopy": "081a71b8c9f96d2cfa533aaf6f900f309f7f728e8ec0b9d4b5f5ce5119993554",
       "sample": [
         [
@@ -3314,7 +3314,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-abril-econom-sin-fuentes__2020.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-abril-econom-sin-fuentes__2020.csv",
       "hashcopy": "aeff168cd6f5112e15533d69ceaeb48d4cf9e3fc95573c3737b82dece373be99",
       "sample": [
         [
@@ -3852,7 +3852,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-septiembre-econom-sin-fuentes__2014.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-septiembre-econom-sin-fuentes__2014.csv",
       "hashcopy": "4137629c830a19ab63f7dc7cb21618ad9f2a15471b643b243ef2f9109d3c477d",
       "sample": [
         [
@@ -4354,7 +4354,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-septiembre-econom-sin-fuentes__2015.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-septiembre-econom-sin-fuentes__2015.csv",
       "hashcopy": "abbeabcf09e8f91238a019450642ff54b01cfbaf614fdfb79101bca741f5d182",
       "sample": [
         [
@@ -4856,7 +4856,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-septiembre-econom-sin-fuentes__2016.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-septiembre-econom-sin-fuentes__2016.csv",
       "hashcopy": "3833acc7a86f0ac369d4cfca6dd6c0293fe6686f52594417062692b7406f2c65",
       "sample": [
         [
@@ -5349,7 +5349,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-septiembre-econom-sin-fuentes__2017.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-septiembre-econom-sin-fuentes__2017.csv",
       "hashcopy": "3d76563b9a1822c19a6f65f0efcb527411dca3b0d89fc5f95057f0d3c28cdef7",
       "sample": [
         [
@@ -5842,7 +5842,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-septiembre-econom-sin-fuentes__2018.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-septiembre-econom-sin-fuentes__2018.csv",
       "hashcopy": "5929d2ed3a8999264c9acd609be7c1c3303d328074276b6a5f3da768f45a2d0b",
       "sample": [
         [
@@ -6371,7 +6371,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-septiembre-econom-sin-fuentes__2019.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-septiembre-econom-sin-fuentes__2019.csv",
       "hashcopy": "5c0a01e75e783baf22679b85ca9ab8edbdb53969f243e30a94acdc2d9e09620b",
       "sample": [
         [
@@ -6891,7 +6891,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-septiembre-econom-sin-fuentes__2020.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-septiembre-econom-sin-fuentes__2020.csv",
       "hashcopy": "2c17f42527f6cfa30cae3c68845d067a5a26e4198869f50cdd252a0ed78161b6",
       "sample": [
         [
@@ -7429,7 +7429,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/ingresos-actualizados-septiembre-econom-sin-fuentes__2021.csv",
+      "path": "https://storage.openspending.org/republica-dominicana-gastos-economica-2014-2020/ingresos-actualizados-septiembre-econom-sin-fuentes__2021.csv",
       "hashcopy": "24d0e9bb05e4299972961d2cce2b36bd51e905f447a0b13a73dce0864740173d",
       "sample": [
         [
@@ -7686,6 +7686,7 @@
   "continent": "North America",
   "region": "Americas",
   "country": "Dominican Republic",
+  "countryCode": "DO",
   "periodicity": "Yearly",
   "years_included": [
     "2014",
@@ -7697,6 +7698,8 @@
     "2020",
     "2021"
   ],
-  "start_date": "2014-01-01",
-  "end_date": "2021-12-31"
+  "fiscalPeriod": {
+  "start": "2014-01-01",
+  "end": "2021-12-31"
+  }
 }
